@@ -1,0 +1,223 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+:root{
+	--lg:lightgray;
+	--dg:darkgray;
+	--g:gray;
+}
+#root{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+.con1{
+	width: 20vw;
+	height: 100vh;
+	display: flex;
+	overflow: hidden;
+}
+.con1>div{
+	width:inherit;
+	height:70vh;
+	background-color:var(--lg);
+	position: relative;
+	top: 50vh;
+	display:flex;
+	flex-direction: column;
+	border-radius: 2vw;
+}
+.con1>div>div{
+	position: relative;
+	left:1.5vw;
+	top: 2vh;
+}
+.con1>div>div>div:nth-child(2){
+	display: flex;
+	width: 30%;
+	height: 3vh;
+	justify-content: space-around;
+	margin-top: 1vh;
+}
+.con1>div>div>div:nth-child(2)>div{
+	width: 0.5vw;
+	height: 0.5vw;
+	border-radius: 4vw;
+	background-color:white;
+}
+.con1>div>div>div:nth-child(2)>div:nth-child(1){
+	background-color:var(--g);
+}
+
+.con1>div>div>div:nth-child(3){
+	color: var(--g);
+	position: relative;
+	left: 1vw;
+}
+.con1>div>div>div:nth-child(4){
+	width: 17vw;
+	height: 3vh;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	border-radius: 0.5vw;
+}
+.con1>div>div>div:nth-child(4)>p{
+	position: relative;
+	left: 1vw;
+
+}
+.con1>div>div>div:nth-child(5){
+	margin-top: 2vh;
+}
+.con1>div>div>div:nth-child(5)>p{
+	position: relative;
+	left: 1vw;
+	color: var(--g);
+}
+
+.con1>div>div>div:nth-child(6){
+	width: 17vw;
+	height: 3vh;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	border-radius: 0.5vw;
+}
+.con1>div>div>div:nth-child(6)>p{
+	position: relative;
+	left: 1vw;
+
+}
+.con1>div>div>div:nth-child(7){
+	width:17vw;
+	height:5vh;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.con1>div>div>div:nth-child(8){
+	width: 17vw;
+	height: 3vh;
+	display: flex;
+	justify-content: flex-end;
+}
+.con1>div>div>div:nth-child(8)>div{
+	width: 8vw;
+	height: 3vh;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1vw;
+}
+.con1>div>div>div:nth-child(9){
+	width: 17vw;
+	height:3vh;
+	display: flex;
+	position: relative;
+	left: 10.5vw;
+}
+.con1>div>div>div:nth-child(10){
+	width:17vw;
+	height: max-content;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top:15vh;
+}
+.con1>div>div>div:nth-child(10)>div{
+	width:8vw;
+	height: 0.5vh;
+	background-color: black;
+	border-radius: 1vw;
+}
+.con2{
+width: 80vw;
+height: inherit;
+background: lightblue;
+}
+.con2>div{
+	display:flex;
+	flex-direction: column;
+}
+.con2>div>div:nth-child(1){
+	width:80vw;
+	height: 50vh;
+	background-color: var(--g);
+}
+.con2>div>div:nth-child(2){
+	width: 80vw;
+	height: 50vh;
+	background-color:black;
+}
+.con2>div>div:nth-child(3){
+	position:absolute;
+	top:25vh;
+	left: 30vw;
+	width: 60vw;
+	height:60vh;
+	display: flex;
+	flex-direction: column;
+}
+.con2>div>div:nth-child(3)>div:nth-child(1){
+	display: flex;
+}
+
+.con2>div>div:nth-child(3)>div>div:nth-child(1){
+	width: 10vw;
+	height: 10vw;
+	background-color: orangered;
+	border-radius: 2vw;
+}
+.con2>div>div:nth-child(3)>div>div:nth-child(2){
+width: 50vw;
+height: 10vw;
+display: flex;
+flex-direction: column;
+position: relative;
+left: 2vw;
+}
+.con2>div>div:nth-child(3)>div>div:nth-child(2)>div{
+	width: 45vw;
+	height: 9vw;
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+.con2>div>div:nth-child(3)>div>div:nth-child(2)>div>div:nth-child(2){
+	display: flex;
+	justify-content: center;
+}
+.con2>div>div:nth-child(3)>div>div:nth-child(2)>div>div:nth-child(2)>div{
+	width:5vw;
+	display: flex;
+	justify-content:space-around;
+	margin-top: 2vh;
+}
+.con2>div>div:nth-child(3)>div>div:nth-child(2)>div>div:nth-child(2)>div>div{
+	width: 0.5vw;
+	height:0.5vw;
+	border-radius: 1vw;
+	background-color: white;
+	opacity: 0.5;
+}
+.con2>div>div:nth-child(3)>div>div:nth-child(2)>div>div:nth-child(3){
+	margin-top: 2vh;
+	line-height: 3vh;
+}
+.con2>div>div:nth-child(3)>div:nth-child(2){
+	width:60vw;
+	height: 0.5vh;
+	background-color:orangered;
+	margin-top: 2vh;
+	border-radius: 2vw;
+}
+.con2>div>div:nth-child(3)>div:nth-child(3){
+	color: white;
+	margin-top: 2vh;
+	line-height: 3vh;
+}
+
+
